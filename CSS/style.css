@@ -1,0 +1,53 @@
+/*importing the code in the container.css from the components folder*/
+@import url('components/container.css');
+
+/*importing the code in the avatar.css from the components folder*/
+@import url('components/avatar.css');
+
+/*importing the code in the button.css from the components folder*/
+@import url('components/button.css');
+
+/*importing the code in the banner.css from the components folder*/
+@import url('components/banner.css');
+
+/*importing the code in the card.css from the components folder*/
+@import url('components/card.css');
+
+/*use the actual way of importing fonts like in the video*/
+@font-face{
+	src:url(Roboto-Black.ttf);
+	font-family: Roboto;
+}
+@font-face{
+	src:url(Lora-VariableFont_wght.ttf);
+	font-family: Lora;
+}
+
+body{
+	font-family: Lora,serif;
+	font-size: 18px;
+	margin: 0;
+}
+h1,h2,h3{
+	font-family: Roboto,sans-serif;
+	font-weight: bold;
+}
+/*default designs for links*/
+a{
+	text-decoration: none;
+}
+.link{
+	margin: 0 auto;
+	
+	width: 20%;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.link a{
+	display: inline-block;
+}
+.link a:hover{
+	text-decoration: underline;
+}
